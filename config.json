@@ -1,0 +1,8 @@
+{
+  "mailer": {
+    "host": "localhost",
+    "username": "foo@bar.com",
+    "password": "1234",
+    "domain": "localhost"
+  }
+}
