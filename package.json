@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "description": "a simple Hook for sending emails",
   "repository": {
-    "url": ""
+    "url": "git://github.com/hookio/mailer.git"
   },
   "engines": {
     "node": ">= v0.4.7"
