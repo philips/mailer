@@ -35,17 +35,7 @@ var emailOptions = {
   body    : 'I would like a grilled cheese please.'
 };
 
-myhook.emit('*::sendEmail', emailOptions);
+myhook.emit('sendEmail', emailOptions);
 
-myhook.on('*::error', function(err){
-  console.log(err);
-}); 
-
-myhook.on('*::emailSent', function(result){
-
-  // email was successfully sent
-  console.log(result);
-
-}); 
 
 ```
